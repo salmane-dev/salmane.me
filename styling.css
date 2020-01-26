@@ -1,0 +1,385 @@
+
+  html, body {  
+    margin: 0;
+    width: 100%; 
+    overflow-x: hidden;
+    opacity: 0.9; 
+    scroll-behavior:smooth; 
+    transition: 1000ms;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    transition: all 1.0s ease-in;
+    font-size:100%; 
+    height: 100%;
+  } 
+
+  h1 {
+    font-size: 4rem;
+    color: #000; 
+    left: 50%;
+    text-overflow: inherit;
+    top: 20%; 
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+   
+nav a, .nav-link, .nav-item { 
+    font-size: 20px;
+    color:rgb(22, 71, 71);
+    z-index: 2; 
+    padding: 0 10px 0 10px;
+}
+
+.navbar{
+  right: 30px;
+  top: 11px;
+}
+
+nav a:hover {
+    font-size: 20px;
+    transition: 500ms;
+    font: bolder;
+    color: black;
+}
+
+.first{
+  margin-top: 0;
+  padding-top: 0;
+  width: 100%;
+  height: 100%; 
+  transition: 1000ms;
+  background:lightskyblue; 
+  float: left;
+}
+
+.container-fluid { 
+  padding: 4%;/*
+  height: 100%;*/
+  
+  width: 100%;
+  height: auto;
+} 
+ 
+
+.seconde{ 
+ /* padding: 3% ;
+  background: rosybrown; 
+  text-align: right !important ;
+  margin: 0; 
+  height: auto !important;
+  min-height: 80% !important;
+*/
+  text-align: right !important ;
+  padding: 2%;
+  margin-top: 0%;
+  padding-top: 4%;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  transition: 1000ms;
+  background: rgb(128, 120, 8);
+  float: left;
+}
+
+
+
+
+.seconde h2{
+  color: black; 
+  font-size: 50px;
+  position: relative;
+  right: 12%;
+}
+
+.seconde p{
+  font-size: 20px;
+  color: black;  
+  position: relative;
+  left: 75%;
+}
+ 
+
+#workp p {  
+  position: relative;
+  right: 10%;
+  text-align: left !important ;
+  }
+.fif{
+  padding-top: 0%;
+  float: left;
+}
+.fiftyy{
+  height: 90%;
+  width: 70%;
+  float: left;
+  overflow: hidden;
+  padding-top: 0% !important;
+  float: left;
+ }
+
+.fifty{ 
+  height: 100%;
+  width: 80%; 
+  float: left;
+  padding-top: 4% ;
+}
+
+.fifty a{
+  text-anchor: middle;
+  text-decoration: burlywood;
+  text-decoration-line: none;
+  font-size: 22px;
+  color:rgb(22, 71, 71);
+  margin-bottom: 7% !important;
+  display: inline-block;
+}
+
+.fifty h4{
+padding-bottom: 6px;
+
+}
+
+.carousel-caption * {
+text-align: center !important;
+position: relative !important;
+left: 0% !important ; 
+}
+.carousel{
+  height:100% !important;
+}
+
+.carousel-inner{
+  height:100% !important;
+}
+.carousel-indicators{
+  top: 63%;
+}
+
+#carouselExampleIndicators img{
+border-radius: 1%;
+}
+
+
+
+/**********************/
+
+.third{
+/*background:lightskyblue;
+padding: 1%;
+padding-top: 5% ;
+transition: all 1.0s ease-in;
+height: 100%;
+*/
+text-align: right !important ;
+padding: 2%;
+margin-top: 0%;
+padding-top: 4%;
+width: 100%;
+
+transition: 1000ms;
+background: lightskyblue;
+float: left;
+
+}
+
+.third .row{
+  margin: 1%;
+  height: 80%; 
+}
+
+.row div , .row img{
+    padding: 1%;
+    padding-top: 1.5%;
+    margin-bottom: 1% !important;
+    margin-right: 1%;
+    border-radius: 2%;
+}
+    
+/*  flip card */ 
+ 
+.flip-card {
+  background-color: transparent;
+  height: 30rem;
+  width: 19rem;
+  perspective: 1000px;
+} 
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+/*background:rgb(105, 190, 255);
+ background-color: #2980b9;*/
+  color: black;
+  transform: rotateY(180deg);
+}
+
+/****************/
+
+.forth{
+/*  background:rgb(106, 223, 102); 
+  padding: 5%;
+  height: auto !important;
+  min-height: 90%;
+  margin: 0;
+  color: white;
+*/
+   
+padding: 9%;
+margin-top: 0%;
+padding-top: 4%;
+font-size: 1rem;
+width: 100%;
+height: 60%;
+transition: 1000ms;
+background: palegreen;
+float: left;
+
+  }
+
+.fifth{
+  background:rgb(34, 69, 90); 
+  padding: 5%;
+
+  margin: 0;
+  color: white;
+  }
+    
+.fifth a:hover{
+  color: #15aabf; 
+  transition: all 0.3s ease-in;
+  border-bottom:  none; 
+}
+
+.fifth a{
+  color: white;
+  text-decoration-line: underline;
+  transition: all 0.1s ease-in;
+  line-height: 1.9em; 
+}
+
+.arrow a{
+  bottom: 0;
+  position: absolute;
+  padding: 20%; 
+  border-radius: 40%;
+  transition: all 0.4s ease-in;
+  margin: 0 !important;
+}
+
+.arrow i{
+  text-align: center;
+  margin: 0 !important;
+}
+
+.arrow a:hover{  
+  background:rgb(45, 110, 151); 
+  transition: all 0.4s ease-in;
+}
+
+.fa{
+  margin-right: 20px;
+}
+
+.link i {
+  background: #0073b1;
+  color: white !important;
+  padding: 1.1% !important; 
+  transition: all 300ms ease-in;
+}
+
+.link i:hover{
+  color: #0073b1 !important;
+  background: white;
+}
+
+h1,h2,h3,h4,h5{
+  cursor: default;
+}
+
+@media(max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2, h3 {
+    font-size: 3rem;
+  }
+  .carousel-indicators, .navbar{
+    display: none;
+  }
+
+  .fiftyy{
+    width: 100%;
+  }
+
+  .fifth a, .fifth h2, .fifth h1, .fifth h3{
+    font-size: 1rem;
+  }
+
+    .svg{
+      margin-top:2%;
+      padding-top: 2%;
+    }
+
+    .flip-card{
+    width: 200px;
+    height: 350px;
+    }
+
+
+  html, body{
+    overflow:auto;
+    overflow-x: hidden;
+
+  }
+
+  .button {
+    width: 12rem;
+  }
+}
+
+@media(max-width: 800px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
