@@ -206,7 +206,7 @@ float: left;
     
 /*  flip card */ 
  
-. {
+.flip.card{
   background-color: transparent;
   height: 30rem;
   width: 19rem;
