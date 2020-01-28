@@ -158,8 +158,9 @@ right: 0 !important ;
 .carousel-inner{
   height:100% !important;
 }
+
 .carousel-indicators{
-  top: 63%;
+ /* top: 63%;*/
 }
 
 #carouselExampleIndicators img{
