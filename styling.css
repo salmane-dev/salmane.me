@@ -163,7 +163,8 @@ right: 0 !important ;
 }
 
 #carouselExampleIndicators img{
-border-radius: 1%;
+border-radius: 1%; 
+width: 80%;
 }
 
 
