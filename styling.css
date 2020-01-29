@@ -381,7 +381,7 @@ h1,h2,h3,h4,h5{
   .col-sm-3 {
       -ms-flex: 0 0 25%;
       flex: 0 0 30%;
-      min-width: 50rem;
+      min-width: 20rem;
   }
 }
 
