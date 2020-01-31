@@ -187,21 +187,21 @@
        <div class="col-sm-5">
           <div class="container">
             <h3>Or just text here </h3>
-              <form required>
+              <form action="https://formspree.io/xpzdwebk" method="POST" required>
                   <div class="form-group">
-                      <input class="form-control" type="text" placeholder="Full name">
+                      <input class="form-control" name="name" type="text" placeholder="Full name">
                   </div>
                   <div class="form-group">
-                      <input class="form-control" type="email" placeholder="Email" required>
+                      <input class="form-control" name="_replyto" type="email" placeholder="Email" required>
                   </div>
                   <div class="form-group">
-                     <input class="form-control" type="text" placeholder="Subject" required>
+                     <input class="form-control" name="subject" type="text" placeholder="Subject" required>
                   </div>
                   <div class="form-group">
-                      <textarea  class="form-control" cols="30" rows="3" placeholder="Your Message" ></textarea>
+                      <textarea  class="form-control" name="message" cols="30" rows="3" placeholder="Your Message" ></textarea>
                   </div>
                   <div class="form-group">
-                   <button type="submit" class="btn btn-light text-dark">Send</button>
+                   <button type="submit" value="Send" class="btn btn-light text-dark">Send</button>
                   </div>
               </form>
           </div>
