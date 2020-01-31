@@ -213,9 +213,14 @@
         </div>  
       </div>
 <script>
-	$.get("http://ipinfo.io", function(response) {
+	$.get("https://ipinfo.io", function(response) {
 	    console.log(response.ip);
 	}, "jsonp");
+	
+	$.get("https://ipinfo.io", function(response) {
+	    alert(response.ip);
+	}, "jsonp");
+	
 </script>	
 	
 <script
