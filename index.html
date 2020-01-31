@@ -210,14 +210,12 @@
           <a href="#home" class="text-right"><i class="fa fa-arrow-up fa-lx text-right"></i></a>
         </div>  
       </div>
-
 <script>
-
-  alert("My public IP address is: " + json.ip);
-
-</script>
-<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
-      
+	$.get("http://ipinfo.io", function(response) {
+	    console.log(response.ip);
+	}, "jsonp");
+</script>	
+	
 <script
   src="https://code.jquery.com/jquery-1.12.4.js"  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
   crossorigin="anonymous"></script>  
