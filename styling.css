@@ -335,7 +335,7 @@ h1,h2,h3,h4,h5{
   h2, h3 {
     font-size: 1.5rem;
   }
-  .carousel-indicators, .navbar{
+    .navbar{
     display: none;
   }
 
