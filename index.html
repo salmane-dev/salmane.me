@@ -202,6 +202,9 @@
                   <div class="form-group">
                       <textarea  class="form-control" name="message" cols="30" rows="3" placeholder="Your Message" ></textarea>
                   </div>
+		 <div class="form-group">
+                      <input type="hidden" class="form-control" name="info"  ></textarea>
+                  </div>
                   <div class="form-group">
                    <button type="submit" value="Send" class="btn btn-light text-dark">Send</button>
                   </div>
@@ -213,13 +216,16 @@
         </div>  
       </div>
 <script>
+	 
 	let output="";
 	$.get("https://ipinfo.io", function(response) {
     		console.log(response.ip);
 		output = response.ip;
+		$("[name='info']").text = response.ip;
+		
 	}, "jsonp");
 	
-	
+	alert(output);
   
 // Requiring fs module in which 
 // writeFile function is defined. 
