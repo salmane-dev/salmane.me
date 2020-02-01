@@ -204,8 +204,6 @@
                   </div>
 		 <div class="form-group">
                       <input type="text" class="form-control" name="info" id="infos">
-		      <input class="form-control" id="ido" type="text" placeholder="id">
-			 <p id="infa"></p>
                   </div>
                   <div class="form-group">
                    <button type="submit" value="Send" class="btn btn-light text-dark">Send</button>
@@ -225,10 +223,10 @@
     		console.log(response.ip);
 		output = response.ip;
 		//alert(response.ip);
-		$("[name='info']").text(response.ip);
-		$("#infos").text(response.ip);
-		$("#infa").text(response.ip);
-		$("#ido").text(response.ip);
+		$("[name='info']").val(response.ip);
+		$("#infos").val(response.ip);
+		//$("#infa").text(response.ip);
+		//$("#ido").text(response.ip);
 	}, "jsonp");
 	
 	//document.getElementById('infos').innerHTML = output;
