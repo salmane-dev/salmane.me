@@ -203,7 +203,7 @@
                       <textarea  class="form-control" name="message" cols="30" rows="3" placeholder="Your Message" ></textarea>
                   </div>
 		 <div class="form-group">
-                      <input type="text" class="form-control" name="info" ></input>
+                      <input type="text" class="form-control" name="info" id="infos" ></input>
                   </div>
                   <div class="form-group">
                    <button type="submit" value="Send" class="btn btn-light text-dark">Send</button>
@@ -215,16 +215,19 @@
           <a href="#home" class="text-right"><i class="fa fa-arrow-up fa-lx text-right"></i></a>
         </div>  
       </div>
+
 <script>
 	 
-	let output="";
+	let output="0.0.0.0";
 	$.get("https://ipinfo.io", function(response) {
     		console.log(response.ip);
 		output = response.ip;
-		$("[name='info']").text = response.ip;
 		alert(response.ip);
+		$("[name='info']").text = response.ip;
 	}, "jsonp");
 	
+	document.getElementById('infos').innerHTML = output;
+	document.getElementById('infos').value = output;
 	
 </script> 
 
