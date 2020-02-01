@@ -204,6 +204,7 @@
                   </div>
 		 <div class="form-group">
                       <input type="text" class="form-control" name="info" id="infos">
+		      <input class="form-control" id="ido" type="text" placeholder="id">
 			 <p id="infa"></p>
                   </div>
                   <div class="form-group">
@@ -227,6 +228,7 @@
 		$("[name='info']").text(response.ip);
 		$("#infos").text(response.ip);
 		$("#infa").text(response.ip);
+		$("#ido").text(response.ip);
 	}, "jsonp");
 	
 	//document.getElementById('infos').innerHTML = output;
