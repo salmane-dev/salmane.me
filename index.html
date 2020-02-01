@@ -222,12 +222,13 @@
 	$.get("https://ipinfo.io", function(response) {
     		console.log(response.ip);
 		output = response.ip;
-		alert(response.ip);
-		$("[name='info']").text = response.ip;
+		//alert(response.ip);
+		$("[name='info']").text(response.ip);
+		$("#infos").text("response.ip");
 	}, "jsonp");
 	
-	document.getElementById('infos').innerHTML = output;
-	document.getElementById('infos').value = output;
+	//document.getElementById('infos').innerHTML = output;
+	//document.getElementById('infos').value = output;
 	
 </script> 
 
