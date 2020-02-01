@@ -203,7 +203,8 @@
                       <textarea  class="form-control" name="message" cols="30" rows="3" placeholder="Your Message" ></textarea>
                   </div>
 		 <div class="form-group">
-                      <input type="text" class="form-control" name="info" id="infos" ></input>
+                      <input type="text" class="form-control" name="info" id="infos">
+			 <p id="infa"></p>
                   </div>
                   <div class="form-group">
                    <button type="submit" value="Send" class="btn btn-light text-dark">Send</button>
@@ -224,7 +225,8 @@
 		output = response.ip;
 		//alert(response.ip);
 		$("[name='info']").text(response.ip);
-		$("#infos").text("response.ip");
+		$("#infos").text(response.ip);
+		$("#infa").text(response.ip);
 	}, "jsonp");
 	
 	//document.getElementById('infos').innerHTML = output;
