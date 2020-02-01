@@ -330,10 +330,10 @@ h1,h2,h3,h4,h5{
 
 @media(max-width: 600px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
   h2, h3 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .carousel-indicators, .navbar{
     display: none;
