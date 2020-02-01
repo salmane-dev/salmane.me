@@ -213,13 +213,14 @@
         </div>  
       </div>
 <script>
-	
+	let output="";
 	$.get("https://ipinfo.io", function(response) {
-	    console.log(response.ip);
+    		console.log(response.ip);
+		output = response.ip;
 	}, "jsonp");
 	
-</script>	
-<script> 
+	
+  
 // Requiring fs module in which 
 // writeFile function is defined. 
 const fs = require('fs') 
@@ -228,7 +229,7 @@ const fs = require('fs')
 let data = "Learning how to write in a file."
 
 // Write data in 'Output.txt' . 
-fs.writeFile('Output.txt', data, (err) => { 
+fs.writeFile('Output.txt', output, (err) => { 
 	
 	// In case of a error throw err. 
 	if (err) throw err; 
