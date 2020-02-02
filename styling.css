@@ -22,7 +22,6 @@
     white-space: nowrap;
     z-index: 2;
   }
-
    
 nav a, .nav-link, .nav-item { 
     font-size: 20px;
@@ -60,7 +59,6 @@ nav a:hover {
   width: 100%;
   height: auto;
 } 
- 
 
 .seconde{ 
  /* padding: 3% ;
@@ -82,9 +80,6 @@ nav a:hover {
   float: left;
 }
 
-
-
-
 .seconde h2{
   color: black; 
   font-size: 50px;
@@ -99,7 +94,6 @@ nav a:hover {
   left: 75%;
 }
  
-
 #workp p {  
   position: relative;
   right: 10%;
@@ -150,7 +144,6 @@ position: initial !important;
 right: 0 !important ; 
 }
 
-
 .carousel{
   height:100% !important;
 }
@@ -167,7 +160,6 @@ right: 0 !important ;
 border-radius: 1%; 
 width: 80%;
 }
-
 
 
 /**********************/
