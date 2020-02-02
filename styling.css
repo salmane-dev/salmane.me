@@ -43,14 +43,45 @@ nav a:hover {
 }
 
 .first{
-  margin-top: 0;
+ /* margin-top: 0;
   padding-top: 0;
   width: 100%;
   height: 100%; 
   transition: 1000ms;
   background:lightskyblue; 
-  float: left;
+  float: left;*/
+   height: 100%;
+  width: 100%;
+  padding: 0!important;
+  margin: 0!important;
+  background: url('img/pic_2.jpg') center center no-repeat ;
+  background-size: cover;
 }
+
+/**/
+
+.overlayo{
+  background: #87cefa;  
+  opacity: 0.8 !important;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+
+  /***/
+.f_caption{
+  position: relative;
+  width: 100%;
+  top: 200px;
+  left: 0;
+  z-index: 10;
+} 
+
 
 .container-fluid { 
   padding: 4%;/*
