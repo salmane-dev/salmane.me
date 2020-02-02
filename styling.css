@@ -74,12 +74,9 @@ nav a:hover {
   }
 
   /***/
-.f_caption{
-  position: relative;
-  width: 100%;
-  top: 200px;
-  left: 0;
-  z-index: 10;
+.caption{
+  position: relative; 
+  top: 20%; 
 } 
 
 
