@@ -79,6 +79,10 @@ nav a:hover {
   top: 20%; 
 } 
 
+.caption *{
+color:black;
+}
+  
 
 .container-fluid { 
   padding: 4%;/*
