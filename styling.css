@@ -82,6 +82,11 @@ nav a:hover {
 .caption *{
 color:black;
 }
+.caption p{
+  color:black;
+  font-size: 1.3rem;
+}
+
   
 
 .container-fluid { 
