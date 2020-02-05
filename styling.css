@@ -80,7 +80,7 @@ nav a:hover {
   /***/
 .caption{
   position: relative; 
-  top: 20%; 
+  top: 15vh;
   margin-bottom: 4rem;
 } 
 
