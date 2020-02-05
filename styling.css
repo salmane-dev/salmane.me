@@ -50,7 +50,9 @@ nav a:hover {
   transition: 1000ms;
   background:lightskyblue; 
   float: left;*/
-   height: 100%;
+  
+  min-height: 100%;
+  height: auto;
   width: 100%;
   padding: 0!important;
   margin: 0!important;
@@ -62,8 +64,9 @@ nav a:hover {
 
 .overlayo{
   background: #87cefa;  
-  opacity: 0.8 !important;
-  height: 100%;
+  opacity: 0.7 !important;
+  min-height: 100vh;
+  height: auto;
   width: 100%;
   position: relative;
   z-index: 5;
@@ -77,6 +80,7 @@ nav a:hover {
 .caption{
   position: relative; 
   top: 20%; 
+  margin-bottom: 4rem;
 } 
 
 .caption *{
