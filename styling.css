@@ -49,8 +49,10 @@ nav a:hover {
     color: black;
 }
 
-.first{
-  min-height: 100%;
+.first{ 
+  min-height: 100vh;
+  max-height: 500%;
+  height: auto;
   height: auto;
   width: 95%;
   padding: 0!important;
@@ -80,25 +82,36 @@ nav a:hover {
 
   /***/
 .caption{
-  position: relative; 
+  position: relative;
   top: 15vh;
   width: 90vw;
-  margin: 0 3rem;
   margin-bottom: 4rem;
   font-family: Michroma;
+  min-height: 100vh;
+  max-height: 500%;
+  height: auto;
+  overflow: auto;
 } 
 
-.caption *{
+.caption h3{
 color:black;
 font-family: Michroma;
-font-weight: 600;
+font-weight: 700;
+font-size: 2rem;
 }
 
-.welcome{
-  margin-top:10rem;
+.caption a{
+  color:black;
+  font-family: Michroma;
+  font-size: 20px;
+}
+
+.welcome {
+  margin-top:6rem;
   margin-bottom: 1rem;
   font-size: 20px;
   font-weight: 500;
+  color:black;
   text-align: center;
 }
 
