@@ -219,7 +219,8 @@ font-size: 2rem;
 
 .pro1{
   background: url("img/sky28.png") !important;
-  background-size: contain!important;
+  background-size: contain!important;  
+  height: 14rem!important;
 }
 
 .pro2{
@@ -234,7 +235,6 @@ font-size: 2rem;
 .pro4{
   background: url("img/petition.png") !important;
   background-size: contain!important;
-  height:14rem!important;
 }
 .pro5{
   background: url("img/alcyone.png") !important;
