@@ -212,8 +212,8 @@ font-size: 2rem;
   background-repeat: no-repeat!important;
   background-size: cover!important;
   margin-top: 10px;
-  padding: 15px;
-  margin: 15px;
+  padding: 10px;
+  margin: 25px;
   transition: 0.5s;
   min-width: 300px;
   box-shadow: 6px 6px 6px rgb(44, 44, 44);
@@ -222,7 +222,6 @@ font-size: 2rem;
 .pro1{
   background: url("img/sky28.png") !important;
   background-size: contain!important;  
-  height: 14rem!important;
 }
 
 .pro2{
@@ -236,12 +235,12 @@ font-size: 2rem;
 .pro4{
   background: url("img/petition.png") !important;
   background-size: contain!important;
-  height:14rem!important;
+  height:14rem;
 }
 .pro5{
   background: url("img/alcyone.png") !important;
   background-size: contain!important;
-  height:14rem!important;
+  height:14rem;
 }
 .pro6{
   background: url("img/antho.png") !important;
@@ -272,6 +271,9 @@ vertical-align: bottom;
  z-index: 3;
 }
 
+#work div div{
+  margin-bottom:33px;
+}
 #workp p {  
   position: relative;
    }
@@ -479,6 +481,55 @@ h1,h2,h3,h4,h5{
   cursor: default;
 }
 
+@media only screen and (min-width: 1100px) {
+  .caption h1{
+    font-size: 5rem;
+  }
+  #work .row div, .pro1, .pro4,.pro5{
+    height:18.5rem;
+  }
+}
+
+@media(max-width: 840px) {
+    .col-sm-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 30%;
+      max-width: 30%;
+     min-width: 15rem;
+    }
+    .caption h1{
+      font-size: 3.6rem;
+    }
+    #work .row div, .pro1, .pro4,.pro5{
+      height:11.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+  .fifty{
+    display:none;      
+  }
+  .caption h1{
+    font-size: 4.4rem;
+  }
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .caption h1{
+    font-size: 3.3rem;
+  }
+  .caption{
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+  #work .row div, .pro1, .pro4,.pro5{
+    height:10.5rem;
+  }
+}
+
+
+
 @media(max-width: 580px) {
   h1 {
     font-size: 1rem;
@@ -519,46 +570,7 @@ h1,h2,h3,h4,h5{
 
   #work .row div, .pro1, .pro4,.pro5{
     width: 8rem;
-    height:11rem;
-  }
-
-}
-
-
-@media only screen and (max-width: 1100px) {
-  .caption h1{
-    font-size: 5rem;
-  }
-}
-
-@media(max-width: 840px) {
-    .col-sm-3 {
-      -ms-flex: 0 0 25%;
-      flex: 0 0 30%;
-      max-width: 30%;
-     min-width: 15rem;
-    }
-    .caption h1{
-      font-size: 3.6rem;
-    }
-}
-
-@media(max-width: 768px) {
-  .fifty{
-    display:none;      
-  }
-  .caption h1{
-    font-size: 4.4rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .caption h1{
-    font-size: 3.3rem;
-  }
-  .caption{
-    margin-left: 5px;
-    padding-left: 5px;
+    height:9rem;
   }
 }
 
