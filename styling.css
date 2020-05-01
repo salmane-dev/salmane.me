@@ -176,7 +176,7 @@ font-size: 2rem;
   /*background:#b2e1fd;*/
   background: #fff;
   font-size: 1.2rem;
-  padding:5rem;
+  padding:3rem;
 }
 .zwei h3{
  font-size: 2.2rem;
@@ -517,8 +517,9 @@ h1,h2,h3,h4,h5{
     width: 12rem;
   }
 
-  #work .row div{
+  #work .row div, .pro1, .pro4,.pro5{
     width: 8rem;
+    height:11rem;
   }
 
 }
