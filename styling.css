@@ -396,6 +396,7 @@ text-align: center;
 width: 100%;
 height: auto;
 max-height: 600%;
+min-height: 70%;
 transition: 1000ms;
 background: #fff;
 color: black;
