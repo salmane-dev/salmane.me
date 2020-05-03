@@ -586,7 +586,7 @@ h1,h2,h3,h4,h5{
 
   #work .row div, .pro1, .pro4,.pro5{
     width: 8rem;
-    height:12.5rem;
+    height:15rem;
     overflow:show;
   }
 }
@@ -599,7 +599,7 @@ h1,h2,h3,h4,h5{
   }
   #work .row div, .pro1, .pro4,.pro5{
     width: 8rem;
-    height:10rem;
+    height:15rem;
   }
   #work .row div {
     margin: 25px 10px;
