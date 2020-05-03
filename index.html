@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="Shortcut Icon" type="image/ico" href="img/coding.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">	
-  <link rel="stylesheet" href="styling.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
 	<script
  		 src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous">
 	</script>
 </head> 
 <body>
+
 
   <div id="home" class="container-fluid w-100 first ">
     <nav   class="navbar navbar-expand-lg fixed-top ">
@@ -44,7 +46,7 @@
 	<div class="container caption">
 		<br><h1>Salmane ben bihi</h1><br>
 		<br><br>
-		<h3>I am Developer and i like to create things...</h3>
+		<h3>I am a Developer and i like to create things...</h3>
     <br>
     <h3 class="welcome ani"><a href="#aboutme"> Welcome To My Portfolio <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
 	</div>
@@ -54,7 +56,7 @@
 <div id="aboutme"  class="container-fluid w-100 zwei">
   <h3 > Something About Me  </h3>
 <p>
-     <br>I am Developer from north Morocco, motivated, dedicated and passionate about new technologes. <br><br>
+     <br>I am a Developer from north Morocco, motivated, dedicated and passionate about new technologes. <br><br>
 I love working with new people & diffrent organisations.<br><br>
 I remain myself busy in learning. My passion is developing implementations for new ideas.<br>
  </p>
@@ -62,49 +64,59 @@ I remain myself busy in learning. My passion is developing implementations for n
     <div id="work" class="container-fluid w-100 seconde">
       <div class="container-fluid h-100 w-100 fif">
         <h2>My Work </h2>
-        <div class="row">
-              <a href="https://smarket.ma/" style="display:contents">
-                  <div class="col pro3"></div>
-              </a>
+        <div class="row">           
+            <a href="https://cap24.tv/" style="display:contents" >
+              <div class="col pro7" data-aos="fade-up" ></div>
+            </a>
 
-              <a href="https://www.anthocyanin-rp.com/" style="display:contents">
-                  <div class="col pro6"></div>
-              </a>
+            <a href="https://www.anthocyanin-rp.com/" style="display:contents">
+                <div class="col pro6" data-aos="fade-up" ></div>
+            </a>
         </div>
 
         <div class="row">
               <a href="http://sky28tours.com/" style="display:contents">
-                  <div class="col pro1"> </div>
+                  <div class="col pro1" data-aos="fade-up" > </div>
               </a>
 
               <a href="http://petition.ma/" style="display:contents">
-                  <div class="col pro4"></div>
+                  <div class="col pro4" data-aos="fade-up" ></div>
               </a>
 
               <a href="http://alcyone.ma/" style="display:contents">
-                  <div class="col pro5"></div>
+                  <div class="col pro5" data-aos="fade-up" ></div>
               </a>
         </div>
 
         <div class="row">
-              <a href="http://marinadistribution.ma/" style="display:contents">
-                  <div class="col pro2"></div>
+              <a href="https://smarket.ma/" style="display:contents">
+                <div class="col pro3" data-aos="fade-up" ></div>
               </a>
 
-              <a href="https://cap24.tv/" style="display:contents">
-                  <div class="col pro7"></div>
+              <a href="http://marinadistribution.ma/" style="display:contents">
+                <div class="col pro2" data-aos="fade-up" ></div>
               </a>
         </div>
         
         <div class="row">
-            <a href="https://www.epicier.ma/" style="display:contents">
-                <div class="col pro8"></div>
-            </a>
+          <a href="https://www.sport7.ma/" style="display:contents">
+              <div class="col pro8" data-aos="fade-up" ></div>
+          </a>
 
-            <a href="https://jeparticipe.ma/" style="display:contents">
-                <div class="col pro9"></div>
-            </a>
-        </div>
+          <a href="https://digital24.ma/" style="display:contents">
+              <div class="col pro9" data-aos="fade-up" ></div>
+          </a>
+      </div>
+
+      <div class="row">
+        <a href="https://www.epicier.ma/" style="display:contents">
+            <div class="col pro8" data-aos="fade-up" ></div>
+        </a>
+
+        <a href="https://jeparticipe.ma/" style="display:contents">
+            <div class="col pro9" data-aos="fade-up" ></div>
+        </a>
+    </div>
 
       </div>
     </div>
@@ -227,15 +239,38 @@ I remain myself busy in learning. My passion is developing implementations for n
 	}, "jsonp");	
 </script> 
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
 <script
   src="https://code.jquery.com/jquery-1.12.4.js"  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
   crossorigin="anonymous"></script>  
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init({
+  // Global settings:
+  disable: 'phone', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+
+AOS.refresh();
+
+</script>
+
 </body>
 </html>
