@@ -228,6 +228,7 @@ text-align: justify;
 .pro1{
   background: url("img/sky28.png") !important;
   background-size: contain!important;  
+  height: 12rem!important;
 }
 
 .pro2{
@@ -241,12 +242,13 @@ text-align: justify;
 .pro4{
   background: url("img/petition.png") !important;
   background-size: contain!important;
-  height:14rem;
+  height: 12rem!important;
+
 }
 .pro5{
   background: url("img/alcyone.png") !important;
   background-size: contain!important;
-  height:14rem;
+  height: 12rem!important;
 }
 .pro6{
   background: url("img/antho.png") !important;
@@ -487,15 +489,15 @@ h1,h2,h3,h4,h5{
   cursor: default;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1299px) {
   .caption h1{
     font-size: 5rem;
   }
   #work .row div{
-    height:18.5rem;
+    height:16rem;
   }
   .pro1, .pro4, .pro5{
-    height:11rem;
+    height:11rem!important;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -506,7 +508,7 @@ h1,h2,h3,h4,h5{
     height:13.5rem;
   }
   .pro1, .pro4, .pro5{
-    height:11rem;
+    height:9rem;
   }
 }
 @media(max-width: 890px) {
@@ -532,7 +534,7 @@ h1,h2,h3,h4,h5{
     font-size: 4.4rem;
   }
   #work .row div, .pro1, .pro4,.pro5{
-    height:18rem;
+    height:18rem!important;
   }
 }
 
@@ -545,7 +547,7 @@ h1,h2,h3,h4,h5{
     padding-left: 5px;
   }
   #work .row div, .pro1, .pro4,.pro5{
-    height:16.5rem;
+    height:16.5rem!important;
   }
 }
 
@@ -599,7 +601,7 @@ h1,h2,h3,h4,h5{
   }
   #work .row div, .pro1, .pro4,.pro5{
     width: 8rem;
-    height:15rem;
+    height:10rem;
   }
   #work .row div {
     margin: 25px 10px;
