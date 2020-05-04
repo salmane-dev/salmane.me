@@ -266,6 +266,14 @@ text-align: justify;
   background: url("img/jeparticipe.png") !important;
   background-size: contain!important;
 }
+.pro10{
+  background: url("img/digital224.png") !important;
+  background-size: contain!important;
+}
+.pro11{
+  background: url("img/porto77.png") !important;
+  background-size: contain!important;
+}
 
 #work .row div p{
   color: black;
