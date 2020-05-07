@@ -615,7 +615,11 @@ h1,h2,h3,h4,h5{
     margin: 25px 10px;
     overflow:visible;
   }
-
+}
+@media (max-width: 340px){
+  #work .row div, .pro1, .pro4,.pro5{
+    height:10rem;
+  }
 }
 
 .d-none {
