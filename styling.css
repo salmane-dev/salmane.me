@@ -505,7 +505,7 @@ h1,h2,h3,h4,h5{
     height:16rem;
   }
   .pro1, .pro4, .pro5{
-    height:11rem!important;
+    height:11rem;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -542,7 +542,7 @@ h1,h2,h3,h4,h5{
     font-size: 4.4rem;
   }
   #work .row div, .pro1, .pro4,.pro5{
-    height:18rem!important;
+    height:18rem;
   }
 }
 
@@ -555,7 +555,7 @@ h1,h2,h3,h4,h5{
     padding-left: 5px;
   }
   #work .row div, .pro1, .pro4,.pro5{
-    height:11.5rem!important;
+    height:11.5rem;
   }
 }
 
