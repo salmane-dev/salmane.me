@@ -224,6 +224,8 @@ text-align: justify;
   box-shadow: 3px 3px 7px rgb(44, 44, 44);
 }
 
+
+/*
 .pro1{
   background: url("img/sky28.png") !important;
   background-size: contain!important;  
@@ -273,6 +275,7 @@ text-align: justify;
   background: url("img/porto77.png") !important;
   background-size: contain!important;
 }
+*/
 
 #work .row div p{
   color: black;
