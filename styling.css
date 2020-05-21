@@ -96,11 +96,12 @@ nav a:hover {
   overflow: auto;
 } 
 
-.caption h3{
+.caption h3,.caption h2 {
 color:black;
 font-family: Michroma;
 font-weight: 700;
-font-size: 2rem;
+font-size: 2.9rem;
+line-height: 4rem;
 }
 
 .caption a{
@@ -223,7 +224,6 @@ text-align: justify;
   min-width: 300px;
   box-shadow: 3px 3px 7px rgb(44, 44, 44);
 }
-
 
 .pro1{
   background: url("img/sky28.png") !important;
