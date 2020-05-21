@@ -1,7 +1,6 @@
   html, body {  
     margin: 0;
-    width: 100%; /*
-    overflow-x: hidden;*/
+    width: 100%;
     opacity: 0.9; 
     scroll-behavior:smooth; 
     transition: 1000ms;
