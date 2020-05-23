@@ -145,12 +145,13 @@ line-height: 4rem;
   font-weight: 500;
   color:black;
   text-align: center;
+  line-height: 6px;
 }
 
 .caption h1{
   color:black;
   font-family: Michroma;
-  font-weight: 800;
+  font-weight: 800; 
   font-size: 5rem;
 
 }  
@@ -170,12 +171,11 @@ line-height: 4rem;
 /*****************  zwei *******************/
 
 .zwei{
-  /*background:#b2e1fd;*/
   background: #fff;
   font-size: 1.2rem;
-  padding:3rem;
-  padding-top:6rem;
-  min-height:77%;
+  padding:3rem; 
+  padding-top: 4rem;
+  min-height:70%;
 }
 .zwei h3{
   font-size: 2.2rem;
@@ -335,18 +335,32 @@ padding-bottom: 6px;
 
 .third{
 text-align: right !important ;
+min-height: 44%;
 padding: 2%;
 margin-top: 0%;
 padding-top: 4%;
 width: 100%;
 transition: 1000ms;
-background: #73abd4;
-float: left;
+background: #e4e4e4;  
 }
 
 .third .row{
-  margin: 1%;
+  display: flex; 
   height: 80%; 
+   width: 88%; 
+   margin: 2% auto; 
+}
+.third .row .col { 
+  margin:10px;
+  padding:15px;
+  height: 80%; 
+  min-width: 288px;
+  max-width: 444px;
+}
+
+.third .row .col p { 
+  text-align: justify;
+  margin: 0 auto;
 }
 
 .row div , .row img{
@@ -357,7 +371,7 @@ float: left;
     border-radius: 2%;
 }
     
-/*  flip card */ 
+/*  flip card  
  
 .flip-card{
   background-color: transparent;
@@ -392,13 +406,13 @@ float: left;
 }
 
 .flip-card-back {
-/*background:rgb(105, 190, 255);
- background-color: #2980b9;*/
+ background:rgb(105, 190, 255);
+ background-color: #2980b9;
   color: black;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); 
 }
 
-/****************/
+************/
 
 .forth{
 padding: 5%;
@@ -556,6 +570,11 @@ h1,h2,h3,h4,h5{
 .coffees {
  float: none;
  margin: 0 auto;
+} 
+third .row .col{
+  width: 99%;
+  margin: 10px;
+  padding: 30px;
 }
 
 
@@ -614,6 +633,13 @@ h1,h2,h3,h4,h5{
     height:15rem;
     overflow:show;
   }
+
+  #services .row .col,  #services .row .col-4{
+    width: 99%;
+    text-align: center;
+  }
+  
+
 }
 
 @media (max-width: 506px){
