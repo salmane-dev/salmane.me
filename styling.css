@@ -187,6 +187,11 @@ text-align: justify;
 color: black;
 }
   
+.coffees{
+  height: 300px;
+  float:right;
+}
+
 
 /************************************/
 .seconde{ 
@@ -543,6 +548,17 @@ h1,h2,h3,h4,h5{
   #work .row div, .pro1, .pro4,.pro5{
     height:18rem;
   }
+  .col-8, .col-3 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 1 0 66.666667%;
+    max-width: 89.666667%;
+}
+.coffees {
+ float: none;
+ margin: 0 auto;
+}
+
+
 }
 
 @media only screen and (max-width: 600px) {
