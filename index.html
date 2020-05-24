@@ -50,10 +50,11 @@
 <div class="overlayo">
 	<div class="container caption">
 		<br><h1>Salmane ben bihi</h1><br>
-		<br><br>
-		<h2>I am a Developer<br> And i like to create things.</h2>
+    <br><br>
+
+		<h2 id="iamadeveloper">I am a Developer.  </h3><br> <h3 id="iamadeveloperr" style="opacity:0;">And i like to create things.</h2>
     <br>
-    <h3 class="welcome ani"><a href="#aboutme"> Welcome To My Portfolio <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
+    <h3 id="welco" class="welcome ani"  style="opacity:0;"><a href="#aboutme"> <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
 	</div>
 </div> 
 </div>
@@ -61,7 +62,7 @@
 <div id="aboutme"  class="container-fluid w-100 zwei">
   <h3 >Something About Me  </h3>
 <div class="row">
-  <div class="col-8">
+  <div class="col-8" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" >
   <br>  
   <br>  
   <p>
@@ -70,7 +71,7 @@
     I remain myself busy in learning. My passion is developing implementations for new ideas.<br>
   </p>
   </div>
-  <div class="col-3">
+  <div class="col-3"  data-aos="fade-left" data-aos-offset="350" data-aos-easing="ease-in-sine" >
     <img class="coffees" src="img\coffee-small.gif" alt="coffee gif" title="we love coffee">
   </div>
 </div>
@@ -85,7 +86,7 @@
             </a>
 
             <a href="https://www.anthocyanin-rp.com/" style="display:contents" title="anthocyanin-rp.com">
-                <div class="col pro6" data-aos="fade-up" ></div>
+                <div class="col pro6" data-aos="fade-up" data-aos-offset="200"></div>
             </a>
         </div>
 
@@ -95,20 +96,20 @@
               </a>
 
               <a href="http://petition.ma/" style="display:contents" title="petition.tv">
-                  <div class="col pro4" data-aos="fade-up" ></div>
+                  <div class="col pro4" data-aos="fade-up" data-aos-offset="200"></div>
               </a>
 
               <a href="http://alcyone.ma/" style="display:contents" title="alcyone.tv">
-                  <div class="col pro5" data-aos="fade-up" ></div>
+                  <div class="col pro5" data-aos="fade-up" data-aos-offset="300"></div>
               </a>
         </div>
         <div class="row">
               <a href="https://www.digital24.ma/" style="display:contents" title="digital24.tv">
-                    <div class="col pro10" data-aos="fade-up" ></div>
+                    <div class="col pro10" data-aos="fade-up"  ></div>
                 </a>
 
                 <a href="https://sport7.ma/" style="display:contents" title="sport7.tv">
-                    <div class="col pro11" data-aos="fade-up" ></div>
+                    <div class="col pro11" data-aos="fade-up" data-aos-offset="200"></div>
                 </a>
           </div>
 
@@ -117,7 +118,7 @@
             <div class="col pro2" data-aos="fade-up" ></div>
           </a>  
             <a href="https://smarket.ma/" style="display:contents" title="smarket.tv">
-                <div class="col pro3" data-aos="fade-up" ></div>
+                <div class="col pro3" data-aos="fade-up" data-aos-offset="200"></div>
               </a>
         </div>
         
@@ -127,7 +128,7 @@
             </a>
 
             <a href="https://jeparticipe.ma/" style="display:contents" title="jeparticipe.tv">
-                <div class="col pro9" data-aos="fade-up" ></div>
+                <div class="col pro9" data-aos="fade-up" data-aos-offset="200"></div>
             </a>
        </div>
 
@@ -198,8 +199,8 @@
      	</p>
     </div>
     
-    <div id="contact" class="container-fluid row w-100 fifth ">
-
+    <div id="contact" class="container-fluid w-100 fifth ">
+<div class="row justify-content-center">
       <div class="col-sm-5">
         <div class="container">
           <h3>Contact me here: </h3>
@@ -233,12 +234,13 @@
               <h4><a href="mailto:Salmane-ben@live.com"> Salmane-ben@live.com </a></h4><br>
               <a href="https://www.linkedin.com" class="link"><i class="fa fa-linkedin fa-2x"></i></a>
         </div>  
-      </div>  
-      
-        <div class="col-sm-1 arrow text-right">
-          <a href="#home" class="text-right"><i class="fa fa-arrow-up fa-lx text-right"></i></a>
-        </div>  
-      </div>
+      </div>   
+    </div>
+    <div class="container arrow">
+      <a href="#home"><i class="fa fa-arrow-up fa-lx"></i></a>
+    </div>
+  </div>
+
 
 <script>
 	let output="0.0.0.0";
@@ -280,6 +282,38 @@
 });
 
 AOS.refresh();
+
+</script>
+
+<script  type="module" defer>
+
+  function typeEffect(element, speed) {
+  var text = element.innerHTML;
+  element.innerHTML = "";
+  
+  var i = 0;
+  var timer = setInterval(function() {
+    if (i < text.length) {
+      element.append(text.charAt(i));
+      i++;
+    } else {
+      clearInterval(timer);
+    }
+  }, speed);
+}  
+// application
+var speed = 40;
+var h1 = document.querySelector("#iamadeveloper");
+var h1r = document.querySelector("#iamadeveloperr");  
+var welco = document.querySelector("#welco");  
+ 
+// type affect to header
+typeEffect(h1, speed);
+setTimeout(function() {
+h1r.style.opacity =1;
+typeEffect(h1r, speed); 
+welco.style.opacity =1;
+}, (1000));  
 
 </script>
 

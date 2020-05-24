@@ -21,13 +21,13 @@
   p, h1, h2,h3,h4,h5,h6{
     font-family: 'Open Sans', sans-serif;
   }
+
   h1 {
     font-size: 4rem;
     color: #000; 
     left: 50%;
     text-overflow: inherit;
-    top: 20%; 
-/*    white-space: nowrap;*/
+    top: 20%;
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
   }
@@ -146,7 +146,9 @@ line-height:3.3rem;
   padding-top:52px;
   color:black;
   text-align: center;
-  line-height: 11px!important;
+  line-height: 11px!important; 
+  transition: 2s;
+  transition-delay:1s;
 }
 
 .caption h1{
@@ -180,8 +182,8 @@ line-height:3.3rem;
   text-align: center;
 }
 .zwei h3{
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 600;
  }
 
  .zwei p{
@@ -212,8 +214,8 @@ font-size: 1.3rem;
 
 .seconde h2{
   color: rgb(29, 29, 29); 
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 600;
   padding:1rem 0;
   text-align: center;
 }
@@ -382,56 +384,14 @@ overflow: hidden;
     
 .third h2 {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 .third h3 { 
   font-size: 2rem;
   font-weight: 500;
 } 
 
-/*  flip card  
- 
-.flip-card{
-  background-color: transparent;
-  height: 30rem;
-  width: 19rem;
-  perspective: 1000px;
-} 
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  color: black;
-}
-
-.flip-card-back {
- background:rgb(105, 190, 255);
- background-color: #2980b9;
-  color: black;
-  transform: rotateY(180deg); 
-}
-
-************/
 
 .forth{
 padding: 5%;
@@ -452,18 +412,20 @@ float: left;
 
   .forth a{
     transition: 0.5s;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 11px 66px;
     background: #455568;
     color: white;
+    font-size: 1.4rem;
   }
   .forth a:hover{ 
-     transform: scale(1.08);
+    transform: scale(1.08);
     transition: 0.5s;
+    background: #34404e;
+    color: white;
   }
 
 .forth h2{
-  font-size:2.4rem ;
+  font-size:2.4rem;
   font-weight: 600;
 }
 
@@ -497,13 +459,15 @@ float: left;
   transition: 0.8s;
 }
 
+.arrow {
+  float: right;
+  width: auto;
+}
 .arrow a{
-  bottom: 0;
-  position: absolute;
-  padding: 20%; 
-  border-radius: 40%;
+  border-radius: 50%;
   transition: all 0.4s ease-in;
   margin: 0 !important;
+  padding: 15px;
 }
 
 .arrow i{
