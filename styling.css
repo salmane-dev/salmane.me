@@ -100,8 +100,8 @@ nav a:hover {
 color:black;
 font-family: Michroma;
 font-weight: 700;
-font-size: 2.9rem;
-line-height: 4rem;
+font-size: 2.6rem;
+line-height:3.3rem;
 }
 
 .caption a{
@@ -143,9 +143,10 @@ line-height: 4rem;
 .welcome {
   font-size: 20px;
   font-weight: 500;
+  padding-top:52px;
   color:black;
   text-align: center;
-  line-height: 6px;
+  line-height: 11px!important;
 }
 
 .caption h1{
@@ -173,18 +174,20 @@ line-height: 4rem;
 .zwei{
   background: #fff;
   font-size: 1.2rem;
-  padding:3rem; 
+  padding:3rem;
   padding-top: 4rem;
   min-height:70%;
+  text-align: center;
 }
 .zwei h3{
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
  }
 
  .zwei p{
 text-align: justify;
 color: black;
+font-size: 1.3rem;
 }
   
 .coffees{
@@ -210,7 +213,9 @@ color: black;
 .seconde h2{
   color: rgb(29, 29, 29); 
   font-size: 50px;
+  font-weight: 700;
   padding:1rem 0;
+  text-align: center;
 }
  
 #work .row div{
@@ -342,6 +347,7 @@ padding-top: 4%;
 width: 100%;
 transition: 1000ms;
 background: #e4e4e4;  
+overflow: hidden;
 }
 
 .third .row{
@@ -361,6 +367,9 @@ background: #e4e4e4;
 .third .row .col p { 
   text-align: justify;
   margin: 0 auto;
+  font-size: 1.2rem;
+  color: #000;
+
 }
 
 .row div , .row img{
@@ -371,6 +380,16 @@ background: #e4e4e4;
     border-radius: 2%;
 }
     
+.third h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.third h3 { 
+  font-size: 2rem;
+  font-weight: 500;
+} 
+
 /*  flip card  
  
 .flip-card{
@@ -442,6 +461,11 @@ float: left;
      transform: scale(1.08);
     transition: 0.5s;
   }
+
+.forth h2{
+  font-size:2.4rem ;
+  font-weight: 600;
+}
 
 .fifth{ 
   background:#192d45;
