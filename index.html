@@ -191,31 +191,46 @@
       </div>
     </div> 
 
-     <div id="about"  class="container-fluid w-100 forth">
+     <!--div id="about"  class="container-fluid w-100 forth">
         <h2> Interested in working together ? </h2>
 	<p>	<br>I am always open to discuss new projects or colaborations. <br>
     or if you had any questions,<br> leave me a message and i'll get back to you very soon.<br><br>
         <a href="#namo" class="btn btn-light"> Get in touch </a>
      	</p>
-    </div>
+    </div-->
     
     <div id="contact" class="container-fluid w-100 fifth ">
 <div class="row justify-content-center">
       <div class="col-sm-5">
         <div class="container">
-          <h3>Contact me here: </h3>
+          <h3>Interested in working together ?</h3>
+          <p>	<br>I am always open to discuss new projects or colaborations. <br>
+            or if you had any questions,<br> leave me a message and i'll get back to you very soon.<br><br>
+            <i class="fa fa-envelope fa-x2"></i> <a href="mailto:salmane-ben@live.com"> Salmane-ben@live.com </a> <br><br> 
+              <a href="https://www.linkedin.com" class="link"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://www.facebook.com" class="link"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="https://www.github.com" class="link"><i class="fa fa-github fa-2x"></i></a>
+        </div>  
+      </div>
+      <div class="col-sm-5">
+        <div class="container">
+          <h3>Leave a message here: </h3>
             <form action="https://formspree.io/xpzdwebk" method="POST" required>
                 <div class="form-group">
-                    <input id="namo" class="form-control" name="name" type="text" placeholder="Full name">
+                  <label for="idk">Name</label>
+                    <input id="namo" class="form-control" name="name" type="text" >
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="_replyto" type="email" placeholder="Email" required>
+                  <label for="idk">Email</label>
+                  <input class="form-control" name="_replyto" type="email"  required>
                 </div>
                 <div class="form-group">
-                   <input class="form-control" name="subject" type="text" placeholder="Subject" required>
+                  <label for="idk">Subject</label>
+                  <input class="form-control" name="subject" type="text"  required>
                 </div>
                 <div class="form-group">
-                    <textarea  class="form-control" name="message" cols="30" rows="3" placeholder="Your Message" ></textarea>
+                  <label for="idk">Message</label>
+                  <textarea  class="form-control" name="message" cols="30" rows="3" ></textarea>
                 </div>
                 <div class="form-group">
                     <input type="hidden" class="form-control" name="info" id="infos">
@@ -225,22 +240,12 @@
                 </div>
             </form>
         </div>
-      </div>  
-        
-        <div class="col-sm-5">
-        <div class="container">
-          <h3>Or here</h3>
-              <p>i can't wait to hear about your new ideas!.</p> 
-              <h4><a href="mailto:Salmane-ben@live.com"> Salmane-ben@live.com </a></h4><br>
-              <a href="https://www.linkedin.com" class="link"><i class="fa fa-linkedin fa-2x"></i></a>
-        </div>  
-      </div>   
+      </div>     
     </div>
     <div class="container arrow">
       <a href="#home"><i class="fa fa-arrow-up fa-lx"></i></a>
     </div>
   </div>
-
 
 <script>
 	let output="0.0.0.0";
@@ -269,7 +274,6 @@
   debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
   
-
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
