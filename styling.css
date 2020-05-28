@@ -188,7 +188,7 @@ line-height:3.3rem;
 .zwei h3{
   font-size: 2.4rem;
   font-weight: 600;
-  z-index: 333;
+ margin-top: 3rem;
  }
 
  .zwei p{
@@ -211,12 +211,16 @@ font-size: 1.3rem;
   font-weight: 800;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(141, 141, 141);
-  opacity: 0.11;  
-  position: relative;
+  opacity: 0.11;   
   margin: -40px auto;
   z-index: 0;
   line-height: 130px;
-  width: fit-content;
+  width: fit-content; 
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto; 
+  left: 0;
+  right: 0;
   text-align: center;
 
 }
@@ -225,7 +229,6 @@ font-size: 1.3rem;
   color: white;
   width: fit-content;  
   text-align: center;
-
 }
 
 
@@ -248,7 +251,7 @@ font-size: 1.3rem;
   font-size: 2.4rem;
   font-weight: 600;
   padding:1rem 0;
-  margin-bottom: 55px;
+  margin: 50px auto;
   text-align: center;
 }
  
@@ -416,14 +419,10 @@ overflow: hidden;
     
 .third h2 {
   text-align: center;
-  font-size: 2.4rem;
-  font-weight: 600;
-  margin-bottom: 55px;
-}
-.third h3 { 
   font-size: 2rem;
   font-weight: 500;
-} 
+  margin: 50px auto;
+}
 
 .third .fa-4x {
     font-size: 4em;
@@ -494,7 +493,9 @@ float: left;
 .fifth label { 
   margin-bottom: .3rem;
 }
-
+#contact > div.row.justify-content-center {
+  margin: 50px auto;
+}
 
 #contact .btn-light{
   transition: 0.8s;
@@ -529,6 +530,7 @@ float: left;
 .arrow {
   float: right;
   width: auto;
+  margin-top: -15px;
 }
 .arrow a{
   border-radius: 50%;
@@ -644,6 +646,9 @@ third .row .col{
   padding: 30px;
 }
 
+.contacty{
+  margin-bottom: -150px;
+  }
 
 }
 
@@ -710,15 +715,13 @@ third .row .col{
   }
 
   .water-mark{
-   font-size: 6rem;
+   font-size: 8rem;
    line-height: 5rem;
    padding: 0;
-   margin: -22px auto;
+   margin: -10px auto;
    width: fit-content;
    text-align: center;
-
-  } 
-
+  }
 
 }
 
