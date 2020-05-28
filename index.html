@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="menu.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="Shortcut Icon" type="image/ico" href="img/coding.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">	
@@ -25,7 +26,24 @@
 <body>
 
   <div id="home" class="container-fluid w-100 first ">
-    <nav   class="navbar navbar-expand-lg fixed-top ">
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" data-toggle="collapse">
+      <div class="hamburger"><div></div></div>
+      <div id="menu" class="menu" onclick="document.querySelector('#home > div.menu-wrap > input').checked = false;">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#home" >Home</a></li>
+              <li><a href="#aboutme">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav   class="navbar navbar-expand-lg">
         <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
             <ul class="navbar-nav ml-auto text-center">
                 <li class="nav-item">
@@ -191,16 +209,8 @@
           </p>
         </div>
       </div>
-    </div> 
+    </div>
 
-     <!--div id="about"  class="container-fluid w-100 forth">
-        <h2> Interested in working together ? </h2>
-	<p>	<br>I am always open to discuss new projects or colaborations. <br>
-    or if you had any questions,<br> leave me a message and i'll get back to you very soon.<br><br>
-        <a href="#namo" class="btn btn-light"> Get in touch </a>
-     	</p>
-    </div-->
-    
     <div id="contact" class="container-fluid w-100 fifth ">
     <div class="container water-mark contacty"><span>Contact Me</span></div>
     <div class="row justify-content-center">
