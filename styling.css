@@ -1,7 +1,6 @@
   html, body {  
     margin: 0;
     width: 100%;
-    opacity: 0.9; 
     scroll-behavior:smooth; 
     transition: 1000ms;
     text-rendering: optimizeLegibility;
@@ -224,7 +223,7 @@ font-size: 1.3rem;
   left: 0;
   right: 0;
   text-align: center;
-
+  overflow: hidden;
 }
 
 .whito{
