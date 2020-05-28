@@ -495,6 +495,7 @@ float: left;
 }
 #contact > div.row.justify-content-center {
   margin: 50px auto;
+  margin-bottom: 5px;
 }
 
 #contact .btn-light{
