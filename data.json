@@ -5,8 +5,8 @@
     "website": "Template-Website.com",
     "img1":"https://images.unsplash.com/photo-1516486392848-8b67ef89f113",
     "menu":{
-      "background":"white",
-      "textColor":"black"
+      "background":"black",
+      "textColor":"white"
     }
    },
   "body":{
