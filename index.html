@@ -220,6 +220,13 @@
       <div class="col-sm-5">
         <div class="container">
           <h3>Leave a message here: </h3>
+		
+		<!-- Honeypot field ; Thanks to chatgpt -->
+		<div id="honeypot" style="display:none;">
+		  <label for="honeypot-email">Leave this field blank:</label>
+		  <input type="text" name="honeypot-email" id="honeypot-email" value="">
+		</div>
+		
             <form action="https://formspree.io/xpzdwebk" method="POST" required>
               <div class="row name-sub">
                  <div class="form-group col">
@@ -254,6 +261,24 @@
     </div>
   </div>
 
+<!-- Form validation script; Thanks to chatgpt-->
+<script>
+  function validateForm() {
+    // Check if the honeypot field is empty
+    var honeypot = document.getElementById("honeypot-email").value;
+    if (honeypot) {
+      // The honeypot field was filled out, so this is a spam submission
+      // Do nothing and return false
+      return false;
+    } else {
+      // The honeypot field was NOT filled out, so this is a valid submission
+      // Return true to submit the form
+      return true;
+    }
+  }
+</script>
+	
+	
 <script>
 	let output="0.0.0.0";
 	$.get("https://ipinfo.io", function(response) {
@@ -264,6 +289,7 @@
 	}, "jsonp");	
 </script> 
 
+	
 <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
