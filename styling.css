@@ -271,27 +271,24 @@ font-size: 1.3rem;
 }
 
 .pro1{
-  background: url("img/sky28.png") !important;
+  background: url("img/ctps.club.png") !important;
   background-size: contain!important;  
   height: 12rem!important;
 }
 
-.pro2{
-  background: url("img/marina.png") !important;
-  background-size: contain!important;
-}
 .pro3{
   background: url("img/smarka.png") !important;
   background-size: contain!important;
 }
+
 .pro4{
   background: url("img/petition.png") !important;
   background-size: contain!important;
   height: 12rem!important;
-
 }
+
 .pro5{
-  background: url("img/alcyone.png") !important;
+  background: url("img/smarka.png") !important;
   background-size: contain!important;
   height: 12rem!important;
 }
@@ -299,27 +296,16 @@ font-size: 1.3rem;
   background: url("img/antho.png") !important;
   background-size: contain!important;
 }
+
 .pro7{
-  background: url("img/cap24.png") !important;
+  background: url("img/aminabenbihi.png") !important;
   background-size: contain!important;
 }
-.pro8{
-  background: url("img/grocerie.png") !important;
-  background-size: contain!important;
-}
-.pro9{
-  background: url("img/jeparticipe.png") !important;
-  background-size: contain!important;
-}
+
 .pro10{
   background: url("img/ctps.club.png") !important;
   background-size: contain!important;
 }
-.pro11{
-  background: url("img/porto77.png") !important;
-  background-size: contain!important;
-}
-
 
 #work .row div p{
   color: black;
