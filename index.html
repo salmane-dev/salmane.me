@@ -59,9 +59,9 @@
 	 
 <div class="overlayo">
 	<div class="container caption">
-		<br><h1>Salmane ben bihi</h1><br>
+		<br><h1 id="salmane" style="opacity:0;">Salmane ben bihi</h1><br>
     <br><br>
-		<h2 id="iamadeveloper">I am a Developer.  </h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
+		<h2 id="iamadeveloper" style="opacity:0;">I am a Developer.</h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
     <br>
     <h3 id="welco" class="welcome ani"  style="opacity:0;"><a href="#aboutme"> <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
 	</div>
@@ -320,17 +320,25 @@ AOS.refresh();
   }, speed);
 }  
 // application
-var speed = 40;
+var speed = 60;
+var salman = document.querySelector("#salmane");
 var h1 = document.querySelector("#iamadeveloper");
 var h1r = document.querySelector("#iamadeveloperr");  
 var welco = document.querySelector("#welco");  
  
 // type affect to header
-typeEffect(h1, speed);
+typeEffect(salman, speed);
+salman.style.opacity =1;
 setTimeout(function() {
-h1r.style.opacity =1;
-typeEffect(h1r, speed); 
-welco.style.opacity =1;
+    setTimeout(function() {
+      h1r.style.opacity =1;
+      typeEffect(h1r, speed); 
+      welco.style.opacity =1;
+  }, (1000));  
+  h1.style.opacity =1;
+  typeEffect(h1, speed);
+  welco.style.opacity =1;
+
 }, (1000));  
 
 </script>
