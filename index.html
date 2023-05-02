@@ -61,7 +61,7 @@
 	<div class="container caption">
 		<br><h1 id="salmane" style="opacity:0;">Salmane ben bihi</h1><br>
     <br><br>
-		<h2 id="iamadeveloper" style="opacity:0;">I am a Developer.</h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
+		<h2 id="iamadeveloper" style="opacity:0;">I am a  <h2 id="iamadeveloper2" style="opacity:0;">  Developer.</h2></h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
     <br>
     <h3 id="welco" class="welcome ani"  style="opacity:0;"><a href="#aboutme"> <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
 	</div>
@@ -85,8 +85,8 @@
     <img class="coffees" src="img\coffee-small.gif" alt="coffee gif" title="we love coffee">
   </div>
 </div>
-
 </div>
+
   <div id="work" class="container-fluid w-100 seconde">
   <div class="container water-mark whito"><span>My work</span></div>
       <div class="container-fluid h-100 w-100 fif">
@@ -323,8 +323,11 @@ AOS.refresh();
 var speed = 60;
 var salman = document.querySelector("#salmane");
 var h1 = document.querySelector("#iamadeveloper");
+var h2 = document.querySelector("#iamadeveloper2");
 var h1r = document.querySelector("#iamadeveloperr");  
 var welco = document.querySelector("#welco");  
+const words = ['IT Ninja', 'Web Developer', 'Problem solver', 'Freelancer', 'Tech Samurai' ];
+
  
 // type affect to header
 typeEffect(salman, speed);
@@ -334,12 +337,21 @@ setTimeout(function() {
       h1r.style.opacity =1;
       typeEffect(h1r, speed); 
       welco.style.opacity =1;
-  }, (1000));  
+  }, (1200));  
   h1.style.opacity =1;
   typeEffect(h1, speed);
+  setTimeout(function() {
+    h2.style.opacity =1;
+    typeEffect(h2, speed);
+  }, (400)); 
   welco.style.opacity =1;
-
 }, (1000));  
+let currentWordIndex = 0;
+
+ setInterval(() => {
+  h2.innerHTML = words[currentWordIndex];
+  currentWordIndex = (currentWordIndex + 1) % words.length;
+}, 3600);
 
 </script>
 <!-- span> 75 Performance | 82 Accessibility | 93 Best Practices | 100 SEO | 2023 </span -->

@@ -751,3 +751,7 @@ third .row .col{
 }
 
 
+#iamadeveloper2, #iamadeveloper{
+  display: inline-block;
+  margin: 0 10px;
+}
