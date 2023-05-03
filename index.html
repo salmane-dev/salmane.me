@@ -326,7 +326,7 @@ var h1 = document.querySelector("#iamadeveloper");
 var h2 = document.querySelector("#iamadeveloper2");
 var h1r = document.querySelector("#iamadeveloperr");  
 var welco = document.querySelector("#welco");  
-const words = ['IT Ninja', 'Web Developer', 'Problem solver', 'Freelancer', 'Tech Samurai' ];
+const words = ['IT Ninja.', 'Web Developer.', 'Problem solver.', 'Freelancer.', 'Tech Samurai.' ];
 
  
 // type affect to header
@@ -349,7 +349,10 @@ setTimeout(function() {
 let currentWordIndex = 0;
 
  setInterval(() => {
+  h2.style.opacity = 0;
   h2.innerHTML = words[currentWordIndex];
+  typeEffect(h2, speed);
+  h2.style.opacity = 1;
   currentWordIndex = (currentWordIndex + 1) % words.length;
 }, 3600);
 
