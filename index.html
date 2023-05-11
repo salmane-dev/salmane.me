@@ -61,7 +61,7 @@
 	<div class="container caption">
 		<br><h1 id="salmane" style="opacity:0;">Salmane ben bihi</h1><br>
     <br><br>
-		<h2 id="iamadeveloper" style="opacity:0;">I am a  <h2 id="iamadeveloper2" style="opacity:0;">  Developer.</h2></h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
+		<h2 id="iamadeveloper" style="opacity:0;">I am <h2 id="iamadeveloper2" style="opacity:0;">  Developer.</h2></h2><br> <h2 id="iamadeveloperr" style="opacity:0;">And I like to create things.</h2>
     <br>
     <h3 id="welco" class="welcome ani"  style="opacity:0;"><a href="#aboutme"> <br> <i class="fa fa-angle-double-down fa-3x"></i></a> </h3>
 	</div>
@@ -231,19 +231,17 @@
       <a href="#home"><i class="fa fa-arrow-up fa-lx"></i></a>
     </div>
   </div>
-
+ 
 <!-- Form validation script; Thanks to chatgpt-->
 <script>
   function validateForm() {
     // Check if the honeypot field is empty
     var honeypot = document.getElementById("honeypot-email").value;
     if (honeypot) {
-      // The honeypot field was filled out, so this is a spam submission
-      // Do nothing and return false
+      // The honeypot field was filled out, so this is a spam submission // Do nothing and return false
       return false;
     } else {
-      // The honeypot field was NOT filled out, so this is a valid submission
-      // Return true to submit the form
+      // The honeypot field was NOT filled out, so this is a valid submission // Return true to submit the form
       return true;
     }
   }
@@ -253,20 +251,15 @@
     window.location.href = 'mailto:salmane-ben'+"\u0040"+'live.com';
   }); 
 
-
-</script>
-	
-	
-<script>
 	let output="0.0.0.0";
 	$.get("https://ipinfo.io", function(response) {
         console.log(response.ip);
 		output = response.ip;
 		$("[name='info']").val(response.ip);
 		$("#infos").val(response.ip);
-	}, "jsonp");	
-</script> 
+	}, "jsonp");
 
+</script>
 	
 <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -326,8 +319,7 @@ var h1 = document.querySelector("#iamadeveloper");
 var h2 = document.querySelector("#iamadeveloper2");
 var h1r = document.querySelector("#iamadeveloperr");  
 var welco = document.querySelector("#welco");  
-const words = ['IT Ninja.', 'Web Developer.', 'Problem solver.', 'Freelancer.', 'Tech Samurai.' ];
-
+const words = ['an IT Ninja.', 'a Problem solver.', 'a Developer', 'a Freelancer.', 'a Tech Samurai.', 'an Adventurer.', 'Not a Hacker.'];
  
 // type affect to header
 typeEffect(salman, speed);
